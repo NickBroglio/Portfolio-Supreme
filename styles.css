@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    align-content: center;
+}
+
+
+.portfolio-header{
+    margin: 10px 10px 10px 5px;
+    border: 2px solid black;
+    padding: 5px 5px 5px 25px;
+    font-size: 40px;
+}
