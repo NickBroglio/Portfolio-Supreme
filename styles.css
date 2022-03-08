@@ -7,23 +7,38 @@ body{
 .links a{
     text-decoration: none;
     color: white;
+    font-size: 30px;
+    font-family: 'Arvo', serif;
 }
 .about-me,
 .work,
 .contact,
 .links{
     font-size: 30px;
+    height: 100px;
+    text-align: justify;
+    font-family: 'Arvo', serif;
 }
 .day-planner-image,
 .password-image,
-.code-quiz-image{
-    height: 180px;
+.code-quiz-image,
+.weather-dash,
+.poke{
+    height: 220px;
     width: 350px;
     border: 4px solid black;
     border-radius: 10px;
 }
 .day-planner-image:hover,
 .password-image:hover,
-.code-quiz-image:hover{
+.code-quiz-image:hover,
+.weather-dash:hover,
+.poke:hover{
     border: 4px solid red;
+}
+.desc{
+    font-size: 30px;
+    line-height: 65px;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 3px;
 }
