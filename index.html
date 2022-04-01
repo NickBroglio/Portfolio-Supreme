@@ -18,159 +18,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <div class="d-flex bg-dark text-white justify-content-between ">
-        <h1 class=" p-3 mb-2 ">Nick Broglio Portfolio</h1>
-        <nav class="nav d-flex flex-row align-items-center p-4">
-            <a class="px-4" href="#about">About Me</a>
-            <a class="px-4" href="#work">Work</a>
-            <a class="px-4" href="#contact">Contact</a>
-        </nav>
-    </div>
-</header>
-
-<div class="about-me d-flex justify-content-center p-2 bg-secondary text-white">About Me</div>
-<div class="bg-dark text-white p-5 desc">
-    Hello, my name is Nick Broglio from Jamesburg, NJ. I've been studying full-stack web development for a while now. I
-    have studied computer science and fron-end web development in the past. I have had many different types of jobs over
-    these past few years. I have been to school and became a trained electrician. For a while I worked as a
-    telecommunications installer for a security services company. My most recent trade job was working as a carpenter.
-    After all of these I've decided to focus on a new career path in web development. Some of the reasons for this is my
-    attention to detail and my love to create things.
-</div>
-<div class="work d-flex justify-content-center p-2 bg-secondary text-white">Work</div>
-
-<div class="bg-dark d-flex justify-content-around flex-wrap port">
-    <a href="https://nickbroglio.github.io/Day-Planner/"><img class="day-planner-image m-4" src="./images/dayplanner.png"
-            alt="dayplanner"></a>
-    <a href="https://nickbroglio.github.io/Javascript-Password-Generator/"><img class="password-image m-4"
-            src="./images/password.png" alt="password"></a>
-    <a href="https://nickbroglio.github.io/Code_Quiz/"><img class="code-quiz-image m-4" src="./images/codequiz.png"
-            alt="codequiz"></a>
-    <a href="https://nickbroglio.github.io/Weather-Homework/"><img class="weather-dash m-4" src="./images/dash.png"
-            alt="dash"></a>
-    <a href="https://nickbroglio.github.io/Pokemon-Data-Finder/"><img class="poke m-4" src="./images/poke.png" alt="pokemon"></a>
-</div>
-
-<div class="contact d-flex justify-content-center p-2 bg-secondary text-white">Contact</div>
-<div class="links d-flex bg-dark justify-content-around address ">
-    <address class="flex-row align-items-center">
-        <a class="px-4 py-5" href="https://github.com/NickBroglio?tab=repositories">Github</a>
-        <a class="px-4 py-5" href="mailto:nickrbroglio@gmail.com">nickrbroglio@gmail.com</a>
-        <a class="px-4 py-5" href="tel:+17327132379">732-713-2379</a>
-</div>
-</address>
-</div>
-
-
 <body>
+    <style>
+        body{
+            background-image: url('./images/start-background2.jpg');
+            background-size: 2100px;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+
+
+<div class="container-header d-flex justify-content-center">
+    <div class="nick-broglio ">
+        <h2 class="nick-header">Nick Broglio Portfolio</h2>
+        <div class="nick-navbar d-flex flex-wrap justify-content-between px-10 mx-5">
+            <a href="work.html">Work</a>
+            <a href="aboutme.html">About Me</a>
+        </div>
+    </div>
+</div>
+
 
 </body>
-
-
-
-
-<!-- <header>
-        <h2>Portfolio</h2>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
-
-        </nav>
-    </header>
-    <section class="image-container">
-        <div>
-            <h2>Portfolio</h2>
-
-        </div>
-    </section>
-    <main>
-        <summary>
-            <section id="about" class="page-section">
-                <h2>About Me</h2>
-                <div class="paragraphs">
-                    <p>Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa
-                        quinoa
-                        typewriter plaid direct
-                        trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee
-                        Godard
-                        Carles you probably haven't
-                        heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
-                        paleo
-                        scenester.
-                    </p>
-                    <p>Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch
-                        narwhal dreamcatcher pickled
-                        trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn
-                        Pitchfork
-                        Odd Future authentic
-                        normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key
-                        fashion axe Wes Anderson
-                        bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level
-                        pug
-                        ugh.
-                    </p>
-                </div>
-            </section>
-        </summary>
-
-
-        <section id="work" class="page-section">
-            <h2>Work</h2>
-            <div class="box-container">
-                <a href="#" class="box-items surf">
-                    <div>
-                        <h3>Surf Report</h3>
-                        <span>Mern Stack</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box-items led">
-                    <div>
-                        <h3>LED Wall</h3>
-                        <span>Node /IoT</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box-items calc">
-                    <div>
-                        <h3>Calculator</h3>
-                        <span>React /javacripst/css</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box-items puzzle">
-                    <div>
-                        <h3>Pastel Puzzle</h3>
-                        <span>Mern Stack</span>
-                    </div>
-                </a>
-
-                <a href="#" class="box-items buddy">
-                    <div>
-                        <h3>Run Buddy</h3>
-                        <span>html/css</span>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-
-        <footer>
-            <section id="contact" class="page-section contact">
-                <h2>Contact Info</h2>
-                <div>
-                    <address>
-                        <a href="https://github.com/NickBroglio?tab=repositories">Github</a>
-                        <a href="mailto:nickrbroglio@gmail.com">nickrbroglio@gmail.com</a>
-                        <a href="tel:+17327132379">732-713-2379</a>
-
-                    </address>
-                </div>
-            </section>
-        </footer>
-    </main>
 
 
 </html>
